@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="icon" type="img/jpg" href="img/icon.png">
+    </head>
+    <body class="bodygral">
+    <form action="mailto:raul.rodriguez@proeducaglobal.com" method="post" enctype="multipart/form-data" name="Formulario" id="form">
+        <fieldset id="borde-form">
+        <h1 id="títuloForm">Breaking Bad – Que comience el juego!</h1>
+        <h2 class="h2Form">Datos Personales</h2>
+        <label class="pForm">
+          Nombre:
+          <input type="text" name="Nombre" placeholder="Introduce tu nombre" required>
+        </label>
+        <br>
+        <label class="pForm">
+         Apellidos:
+         <input type="text" name="Apellido" placeholder="Introduce tu apellido" required>
+        </label>
+        <br>
+        <label class="pForm">
+         DNI / NIE:
+         <input type="text" name="Dni" placeholder="Introduce tu DNI o NIE">
+        </label> 
+        <br>
+        <label class="pForm">
+         Sexo:
+         <input type="radio" name="sexo" value="H">Hombre
+         <input type="radio" name="sexo" value="M">Mujer
+        </label>
+        <br>
+        <label class="pForm">
+         Fecha de Nacimiento:
+         <input type="date" name="Fecha Nacimiento" max="2016-12-31" value="1999-04-23">
+        </label>
+    <fieldset>
+        <legend><label class="pForm">Dirección Postal</legend></label> 
+       <br>
+        <label class="pForm">
+           Calle
+           <input type="text" name="Calle" placeholder="Introduce tu calle">
+           Piso 
+          <input type="text" name="Piso" placeholder="Introduce tu número de piso">
+          <br>
+          Código Postal
+          <input type="number" name="Código Postal" placeholder="Introduce tu código postal">
+          Ciudad 
+          <input type="text" name="Ciudad" placeholder="Introduce tu ciudad">
+       </label> 
+    </fieldset>
+        <br>
+        <label class="pForm"> Correo Electrónico</label>
+        <input type="email" name="email" placeholder="Déjanos tu email" required>
+        <h2 class="h2Form">Selecciona tu Personaje</h2>
+        <select name="Personajes">
+            <option value="Jessie Pinkman">Jessie Pinkman</option> 
+            <option value="Walter White">Walter White</option> 
+            <option value="Saul Goodman">Saul Goodman</option> 
+            <option value="Gustavo Fring">Gustavo Fring</option> 
+            <option value="Pollos Hermanos">Pollos Hermanos</option> 
+            <option value="Otro Personaje">Otro Personaje</option>
+        </select> 
+        <h2 class="h2Form">Déjanos un Comentario</h2>
+        <textarea cols="50" rows="10" spellcheck="true" id="Comentario"> Nos interesa saber qué te apasiona de la serie...
+        </textarea>
+        <h2 class="h2Form">Puedes dejarnos una foto disfrazado del tu personaje favorito:</h2>
+        <input type="file" name="archivo" accept=".pdf,.jpg,.png" multiple>
+        <br>
+        <input type="submit" class="boton" value="Enviar Formulario">
+        <input type="reset" class="boton" value="Borrar Formulario">
+    </fieldset>
+    </form>
+</body>

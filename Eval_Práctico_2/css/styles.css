@@ -1,0 +1,108 @@
+body {
+background-image: url(/Eval_Práctico_2/img/fondoretro.jpg);
+background-repeat: no-repeat;
+background-size: 100% 100%;
+background-attachment: fixed;
+text-align: center;
+align-items: center;
+}
+
+@font-face {
+    font-family: 'Retro';
+    src: url(/Eval_Práctico_2/RETROTECH.ttf);
+}
+
+#titulo {
+    font-size: 52px;
+    color: white;
+    text-align: center;
+    font-family: 'Retro';
+}
+
+#tabla {
+    width: 800px;
+    height: 500px;
+    border-width: 5px;
+    border-style: groove;
+    border-color: rgb(237, 175, 5);
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}
+
+td {
+    width: 40px;
+    height: 40px;
+    border-width: 5px;
+    border-style: groove;
+    border-color: rgb(62, 59, 59);
+}
+
+.celda{
+    border: 1px outset grey;
+    border-radius: 2px;
+}
+
+#marcador{
+    background-color: black;
+    border: 5px solid black;
+    border-bottom-color: white ;
+    max-height: 100%;
+}
+
+#texto1{
+font-size: 40px;
+font-family: 'Retro';
+
+}
+#texto2{
+    font-size: 32px;
+    margin-left: 50px;
+    font-family: 'Retro';
+}
+
+#fila1{
+    background-color: rgb(62, 59, 59);
+}
+
+#fila2{
+    background-color: rgb(239, 5, 5);
+}
+
+#fila3{
+    background-color: rgb(239, 216, 5);
+}
+
+#fila4{
+    background-color: blue;
+}
+
+#fila5{
+    background-color: violet;
+}
+
+#fila6{
+    background-color: green;
+}
+
+.fila{
+    background-color: rgb(62, 59, 59);
+}
+
+.celdaG{
+    background-color: rgb(62, 59, 59);
+    border: 1px outset grey;
+    border-radius: 2px;
+}
+
+#pelota{
+    width: 40px; /* Diámetro de la pelota */
+    height: 40px; /* Diámetro de la pelota */
+    background-color: white; /* Color de la pelota */
+    border-radius: 50%;
+}
+
+#barra{
+    max-width: 100%;
+}
