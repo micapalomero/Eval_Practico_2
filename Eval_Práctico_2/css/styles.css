@@ -1,5 +1,5 @@
 body {
-background-image: url(/Eval_Práctico_2/img/fondoretro.jpg);
+background-image: url(/img/fondoretro.jpg);
 background-repeat: no-repeat;
 background-size: 100% 100%;
 background-attachment: fixed;
@@ -9,7 +9,7 @@ align-items: center;
 
 @font-face {
     font-family: 'Retro';
-    src: url(/Eval_Práctico_2/RETROTECH.ttf);
+    src: url(/RETROTECH.ttf);
 }
 
 #titulo {
@@ -49,6 +49,7 @@ td {
     border: 5px solid black;
     border-bottom-color: white ;
     max-height: 100%;
+    height: 70px;
 }
 
 #texto1{

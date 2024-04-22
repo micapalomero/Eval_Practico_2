@@ -1,0 +1,564 @@
+/* CSS PARA LA PÁGINA INDEX */
+
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.index{
+    background-image: url(/img/night\ gradient\ S\ for\ desktop\ by\ @Hk3ToN.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.section_index section{
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+
+.header_index li{
+    max-width: 100px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    position: relative;
+    display: flex;
+    float: right;
+    align-items: center;  
+    justify-content: center;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+
+.listaTop{
+    color: white;
+    border-radius: 20px;
+    background-color: #30B7DF;
+    text-decoration: none;
+    padding: 10px;
+}
+
+header .listaTop:hover{
+    background-color: white;
+    color: black;
+}
+
+.contenido{
+    position: relative;
+    display: flex;
+}
+
+
+.ilustracion img{
+    width: 260px;
+    height: 260px;
+    margin-top: 25px;
+    margin-left: 30px;
+    padding: 13px;
+    border-radius: 150px;
+    background: linear-gradient(45deg, #ffb702 0%,#fd5d47 60%,#fd5d47 60%,#fd5d47 60%,#fd5d47 60%,#fd5d47 60%,#fd5d47 60%,#fd5d47 62%,#f72aa8 100%);
+}
+
+.nombre{
+    display: block;
+    position: relative;
+    margin: auto;
+}
+.nombre h1{
+    background: linear-gradient(45deg, rgba(106,163,214,1) 21%,rgba(4,27,155,1) 82%);
+    color: white;
+    font-size: 80px;
+    font-family: 'Exo 2', sans-serif;
+    padding: 8px;
+    border-radius: 10px;
+    width: 400px;
+    margin-top: 210px;
+    margin-left: 480px;
+    text-align: center;
+}
+
+.nombre h2{
+    background: linear-gradient(135deg, #da358b 0%,#982297 30%,#6f1f9a 49%,#6f1f9a 52%,#2989d8 80%,#7db9e8 100%);
+    color: white;
+    border-radius: 10px;
+    width: 560px;
+    font-size: 40px;
+    font-family: 'Roboto Mono', sans-serif;
+    font-style: italic;
+    text-align: center;
+    margin-top: 80px;
+    margin-left: -220px;
+}
+
+.nombre p{
+    color: white;
+    font-family: 'Roboto Mono', sans-serif;
+    font-style: italic;
+    font-size: 17px;
+    margin-left: -240px;
+    margin-top: 5px; 
+    margin-bottom: 20px;
+}
+
+.nombre a{
+    text-decoration: none;
+    background: linear-gradient(to right, rgba(254,141,1,1) 2%,rgba(251,49,99,1) 81%,rgba(251,49,99,1) 81%);
+    color: white;
+    font-size: 20px;
+    font-family: 'Exo 2', sans-serif;
+    padding: 5px 13px;
+    border-radius: 20px;
+    margin-left: -130px;
+    text-align: center;
+}
+
+.nombre a:hover{
+    background: linear-gradient(to right, rgba(251,49,99,1) 19%,rgba(251,49,99,1) 19%,rgba(254,141,1,1) 98%); 
+    padding: 7px 15px;
+    font-size: 23px;
+}
+
+
+.footer_index p{
+    text-align: center;
+    color: white;
+    font-size: small;
+    align-items: center;
+    margin-bottom: none;
+    margin-top: 100px;
+    position: relative;
+}
+
+
+.contacto {
+    display: flex;
+    float: right;
+    margin-top: auto;
+    align-items: center;
+    justify-items: center;
+    text-decoration: none;
+    position: relative;
+}
+
+.redesSociales{
+    color: white;
+    width: 30px;
+    height: 30px;
+    margin-right: 30px;
+    margin-top: -50px;
+}
+
+ul .redesSociales:hover{
+    background-color: #B5238A;
+    padding: 8px;
+    border-radius: 20px;
+}
+
+
+/* CSS PARA LA PÁGINA DE CV */
+
+.body_cv{
+    background-image: url(/img/richard-horvath-RAZU_R66vUc-unsplash.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+} 
+
+.listaTop_cv{
+    color: black;
+    border-radius: 20px;
+    background-color: #F9C524;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.header_cv li{
+    max-width: 100px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    position: relative;
+    display: flex;
+    float: right;
+    align-items: center;  
+    justify-content: center;
+    margin-right: 20px;
+    margin-top: -38px;
+}
+
+header .listaTop_cv:hover {
+    background-color: black;
+    color: white;
+}
+
+.section_cv{
+    background: linear-gradient(45deg, rgba(248,197,42,1) 20%,rgba(251,49,99,1) 49%,rgba(241,115,32,1) 80%);
+    border-radius: 40px;
+    width: 600px;
+    height: 300px;
+    margin-left: 30%;
+    margin-top: 53px;
+    align-content: center;
+}
+
+.cv_1{
+    justify-content: center;
+    display: inline-flex;
+    align-items: center;
+    width: 200px;
+}
+.cv_1 img{
+    display: inline;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    padding: 8px;
+    margin-top: 50px;
+    margin-left: 200%;
+    background: linear-gradient(135deg, rgba(248,197,42,1) 20%,rgba(251,49,99,1) 49%,rgba(241,115,32,1) 80%);
+}
+
+.cv_1 h1{
+    display: inline;
+    color: black;
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 30px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.cv_2 h2{
+    text-align: center;
+    margin-left: 210px;
+    margin-top: -20px;
+    font-size: 30px;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+.cv{
+    background: linear-gradient(135deg, rgba(248,197,42,1) 20%,rgba(251,49,99,1) 49%,rgba(241,115,32,1) 80%);
+    margin-top: 45px;
+    border-radius: 40px;
+    width: 600px;
+    height: 800px;
+    text-align: left;
+    justify-content: center;
+    padding: 15px;
+    padding-left: 22px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.Titulos{
+    color: black;
+    font-size: 22px;
+    margin-bottom: 14px;
+    margin-top: 10px;
+    text-decoration: underline;
+}
+
+.datos{
+    font-size: 18px;
+    margin: 4px;
+}
+
+.puesto{
+    font-style: italic;
+}
+
+.fecha{
+    margin-bottom: 16px;
+}
+
+.footer_cv{
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+    font-size: small; 
+}
+
+ul{
+    list-style: none;
+    text-decoration: none;
+}
+
+
+/* CSS PARA LA PÁGINA QUIÉN SOY */
+
+.quienSoy{
+    background-image: url(/img/\ .jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.header_qs ul{
+    width: 370px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    position: relative;
+    display: flex;
+    float: right;
+   margin-top: -15px;
+}
+
+.listaTop_qs{
+    color: white;
+    border-radius: 20px;
+    background-color: #FA4E08;
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+header .listaTop_qs:hover{
+    background-color: black;
+    color: white;
+}
+
+.div_img{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 300px;
+    margin-top: 40px;
+    z-index: auto;
+}
+
+.figure{
+    margin: 0 10px;
+    text-align: center;
+}
+
+.section_qs img{
+    max-width: 150%;
+    max-height: 500px ;
+    justify-content: center;
+    background: linear-gradient(45deg, rgba(253,82,4,1) 16%,rgba(180,24,34,1) 49%,rgba(238,169,15,1) 87%);
+    padding: 5px;
+    border-radius: 20px;
+    display:inline;
+    margin-top: 60px;
+}
+
+
+.caption {
+    color: white;
+    background-color: #DD2D38;
+    font-size: 13px;
+    border-radius: 5px;
+    font-family: 'Raleway', sans-serif;
+    max-width: 100%;
+    padding: 3px;
+    text-align: center;
+    margin-top: 3px;
+}
+
+.info{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    width: 80%;
+    height: 350px;
+    justify-items: center;
+    align-items: center;
+    background: linear-gradient(45deg, rgba(244,127,17,1) 4%,rgba(244,127,17,1) 10%,rgba(228,38,41,1) 28%,rgba(251,69,108,1) 54%,rgba(251,69,108,1) 54%,rgba(251,69,108,1) 60%,rgba(251,69,108,1) 67%,rgba(173,30,109,1) 91%);
+    padding: 20px;
+    border-radius: 20px;
+    margin-left: 125px;
+    margin-top: 15px;
+    margin-bottom: 70px;
+}
+
+.TituloQs{
+    font-size: 40px;
+    text-align: center;
+}
+
+.SobreMi{
+    font-size: 20px;
+    justify-content: center;
+    text-align:justify;
+    line-height: 30px;
+    margin: 4px;
+    align-self: center;
+}
+
+
+
+/* CSS PARA LA PÁGINA DE PROYECTOS */
+.proyectos{
+    background-image: url(/img/Copia\ de\ \ .jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.section_pro section{
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.header_pro li{
+    max-width: 100px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    position: relative;
+    display: flex;
+    float: right;
+    align-items: center;  
+    justify-content: center;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+
+.listaTop_pro{
+    color: white;
+    border-radius: 20px;
+    background-color: #CC60DC;
+    text-decoration: none;
+    padding: 10px;
+}
+
+header .listaTop_pro:hover{
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
+
+/* CSS PARA LA PÁGINA DE FORMULARIO */
+
+.formulario{
+    background-image: url(/img/mymind-wHJ5L9KGTl4-unsplash.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.section_form section{
+    align-items: center;
+    justify-content: center;
+}
+
+.header_form li{
+    max-width: 100px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    position: relative;
+    display: flex;
+    float: right;
+    align-items: center;  
+    justify-content: center;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+
+.listaTop_form{
+    color: white;
+    border-radius: 20px;
+    background-color: #FA2742;
+    text-decoration: none;
+    padding: 10px;
+}
+
+header .listaTop_form:hover{
+    background-color: #FEC064;
+    color: black;
+}
+
+.form{
+    width: 50%;
+    height: 650px;
+    font-family:'Raleway', sans-serif;
+    font-size: 14px;
+    display: flex;
+    margin: 70px 380px;
+    padding: 30px;
+    background-clip: border-box;
+    background-color: rgba(252, 176, 192, 0.5);
+    color: white;
+    border-radius: 100px;
+    justify-content: center;
+    text-align: center;
+}
+
+.borde-form{
+    border: none;
+}
+.títuloForm{
+    font-size: 40px;
+}
+
+.h2Form{
+    margin-bottom: 1%;
+    font-size: 20px;
+}
+
+#Comentario{
+    font-style: italic;
+    font-family: 'Exo 2', sans-serif;
+    padding: 5px 5px;
+    border-radius: 20px;
+    border: none;
+}
+
+.pForm{
+    font-size: 18px;
+}
+
+input {
+    padding: 2px;
+    margin: 5px;
+    border-radius: 4px;
+    border: none;
+    font-size: 15px;
+}
+
+.boton{
+    padding: 4px;
+    font-size: 18px;
+    margin-top: 34px;
+    margin-bottom: none;
+    background: #FD4D6C;
+    color: white;
+}
+
+.footer_form{
+    margin-top: 67px;
+}
+
+.boton {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      font-size: 18px;
+    }
+  
+    to {
+      font-size: 22px;
+    }
+  }
+
+
+
+
+
+
