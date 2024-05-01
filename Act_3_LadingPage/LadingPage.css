@@ -9,7 +9,7 @@
 }
 
 body.index{
-    background-image: url(/img/night\ gradient\ S\ for\ desktop\ by\ @Hk3ToN.jpg);
+    background-image: url(img/night\ gradient\ S\ for\ desktop\ by\ @Hk3ToN.jpg);
     background-position:center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -300,7 +300,7 @@ ul{
 /* CSS PARA LA PÁGINA QUIÉN SOY */
 
 body.quienSoy{
-    background-image: url(/img/\ .jpg);
+    background-image: url(img/\ .jpg);
     background-position:center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -417,7 +417,7 @@ ul.fotos li:hover img{
 
 /* CSS PARA LA PÁGINA DE PROYECTOS */
 .proyectos{
-    background-image: url(/img/Copia\ de\ \ .jpg);
+    background-image: url(img/Copia\ de\ \ .jpg);
     background-position:center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -531,24 +531,10 @@ header .listaTop_pro:hover{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* CSS PARA LA PÁGINA DE FORMULARIO */
 
 .formulario{
-    background-image: url(/img/mymind-wHJ5L9KGTl4-unsplash.jpg);
+    background-image: url(img/mymind-wHJ5L9KGTl4-unsplash.jpg);
     background-position:center;
     background-repeat: no-repeat;
     background-attachment: fixed;
