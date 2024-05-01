@@ -171,7 +171,7 @@ ul .botones:hover{
 /* CSS PARA LA PÁGINA DE CV */
 
 body.body_cv{
-    background-image: url(/img/richard-horvath-RAZU_R66vUc-unsplash.jpg);
+    background-image: url(img/richard-horvath-RAZU_R66vUc-unsplash.jpg);
     background-position:center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -634,10 +634,11 @@ input {
     font-size: 15px;
 }
 
-.boton{
+.boton_f{
     padding: 4px;
     font-size: 18px;
     margin-top: 34px;
+    margin-left: 10px;
     margin-bottom: none;
     background: #FD4D6C;
     color: white;
@@ -647,20 +648,11 @@ input {
     margin-top: 67px;
 }
 
-.boton {
-    animation-duration: 3s;
-    animation-name: slidein;
+.boton_f:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 10px whitesmoke;
   }
   
-  @keyframes slidein {
-    from {
-      font-size: 18px;
-    }
-  
-    to {
-      font-size: 22px;
-    }
-  }
 
 
 
