@@ -8,7 +8,7 @@
     box-sizing: border-box;
 }
 
-.index{
+body.index{
     background-image: url(/img/night\ gradient\ S\ for\ desktop\ by\ @Hk3ToN.jpg);
     background-position:center;
     background-repeat: no-repeat;
@@ -16,15 +16,9 @@
     background-size: 100% 100%;
 }
 
-.section_index section{
-    align-items: center;
-    width: 100%;
-    justify-content: center;
-}
-
 
 .header_index li{
-    max-width: 100px;
+    max-width: 7rem;
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
     position: relative;
@@ -32,8 +26,8 @@
     float: right;
     align-items: center;  
     justify-content: center;
-    margin-top: 15px;
-    margin-right: 20px;
+    margin-top: 1rem;
+    margin-right: 1.20rem;
 }
 
 .listaTop{
@@ -108,68 +102,102 @@ header .listaTop:hover{
 
 .nombre a{
     text-decoration: none;
-    background: linear-gradient(to right, rgba(254,141,1,1) 2%,rgba(251,49,99,1) 81%,rgba(251,49,99,1) 81%);
     color: white;
     font-size: 20px;
     font-family: 'Exo 2', sans-serif;
+}
+
+.nombre button{
+    border: none;
+    background: linear-gradient(to right, rgba(254,141,1,1) 2%,rgba(251,49,99,1) 81%,rgba(251,49,99,1) 81%);
     padding: 5px 13px;
     border-radius: 20px;
     margin-left: -130px;
     text-align: center;
 }
 
-.nombre a:hover{
+.nombre button:hover{
     background: linear-gradient(to right, rgba(251,49,99,1) 19%,rgba(251,49,99,1) 19%,rgba(254,141,1,1) 98%); 
-    padding: 7px 15px;
-    font-size: 23px;
+    transform: scale(1.1);
+    box-shadow: 0 0 2rem whitesmoke;
 }
 
-
-.footer_index p{
+.footer_index{
     text-align: center;
     color: white;
-    font-size: small;
-    align-items: center;
-    margin-bottom: none;
-    margin-top: 100px;
-    position: relative;
+    font-size: x-small;
+}
+
+.final div{
+   position: relative;
+   top: 3rem;
+   display: inline;
 }
 
 
 .contacto {
     display: flex;
     float: right;
-    margin-top: auto;
     align-items: center;
     justify-items: center;
     text-decoration: none;
-    position: relative;
+}
+
+.botones{
+    border-radius: 4rem;
+    background: none;
+    border: none;
+    width: 2.3rem;
+    height: 2.3rem;
+    margin-right: 3rem;
 }
 
 .redesSociales{
     color: white;
-    width: 30px;
-    height: 30px;
-    margin-right: 30px;
-    margin-top: -50px;
+    width: 2.3rem;
+    height: 2.3rem;
+    
 }
 
-ul .redesSociales:hover{
-    background-color: #B5238A;
-    padding: 8px;
-    border-radius: 20px;
+ul .botones:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 3rem #ffb702;
 }
+
+
+
 
 
 /* CSS PARA LA PÁGINA DE CV */
 
-.body_cv{
+body.body_cv{
     background-image: url(/img/richard-horvath-RAZU_R66vUc-unsplash.jpg);
     background-position:center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
+    background-size: cover; 
+    height: 100vh; 
+    margin: 0; 
+    justify-content: center;
+    align-items: center;
+    display: inline;
+    position: relative;
 } 
+
+
+.header_cv li{
+    margin: 15px 10px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    display: flex;
+    float: right;
+}
+
+header .listaTop_cv:hover {
+    background-color: black;
+    color: white;
+}
 
 .listaTop_cv{
     color: black;
@@ -179,74 +207,50 @@ ul .redesSociales:hover{
     padding: 10px;
 }
 
-.header_cv li{
-    max-width: 100px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 16px;
+section.contenedor_cv{
     position: relative;
-    display: flex;
-    float: right;
-    align-items: center;  
+    left: 30%;
+    top: 60px;
+    max-width: 50%;
+    height: 550px;
     justify-content: center;
-    margin-right: 20px;
-    margin-top: -38px;
-}
-
-header .listaTop_cv:hover {
-    background-color: black;
-    color: white;
-}
-
-.section_cv{
-    background: linear-gradient(45deg, rgba(248,197,42,1) 20%,rgba(251,49,99,1) 49%,rgba(241,115,32,1) 80%);
-    border-radius: 40px;
-    width: 600px;
-    height: 300px;
-    margin-left: 30%;
-    margin-top: 53px;
-    align-content: center;
-}
-
-.cv_1{
-    justify-content: center;
-    display: inline-flex;
     align-items: center;
-    width: 200px;
 }
-.cv_1 img{
-    display: inline;
+
+
+.cv_principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, rgba(248,197,42,1) 20%,rgba(251,49,99,1) 49%,rgba(241,115,32,1) 80%);
+    box-shadow: 0 0 2rem rgba(0, 0, 0, 0.2);
+    border-radius: 40px;
+    padding: 20px;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    width: 85%;
+}
+
+.cv_principal h1{
+    font-size: 40px;
+}
+
+.cv_principal h2{
+    font-size: 30px;
+}
+
+.cv_principal img{
+    margin-right: 20px;
     width: 200px;
     height: 200px;
     border-radius: 100px;
     padding: 8px;
-    margin-top: 50px;
-    margin-left: 200%;
     background: linear-gradient(135deg, rgba(248,197,42,1) 20%,rgba(251,49,99,1) 49%,rgba(241,115,32,1) 80%);
-}
-
-.cv_1 h1{
-    display: inline;
-    color: black;
-    font-size: 40px;
-    font-family: 'Raleway', sans-serif;
-    margin-top: 30px;
-    margin-left: 20px;
-    text-align: center;
-}
-
-.cv_2 h2{
-    text-align: center;
-    margin-left: 210px;
-    margin-top: -20px;
-    font-size: 30px;
-    color: black;
-    font-family: 'Raleway', sans-serif;
-    text-align: center;
 }
 
 .cv{
     background: linear-gradient(135deg, rgba(248,197,42,1) 20%,rgba(251,49,99,1) 49%,rgba(241,115,32,1) 80%);
-    margin-top: 45px;
+    margin-top: 25px;
     border-radius: 40px;
     width: 600px;
     height: 800px;
@@ -295,15 +299,23 @@ ul{
 
 /* CSS PARA LA PÁGINA QUIÉN SOY */
 
-.quienSoy{
+body.quienSoy{
     background-image: url(/img/\ .jpg);
     background-position:center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
+    background-size: cover; 
+    height: 100vh; 
+    margin: 0; 
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-.header_qs ul{
+.header_qs li{
+    margin: 15px 10px;
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
     display: flex;
@@ -316,8 +328,6 @@ ul{
     background-color: #FA4E08;
     text-decoration: none;
     padding: 10px;
-    margin-top: 15px;
-    margin-right: 15px;
 }
 
 header .listaTop_qs:hover{
@@ -325,34 +335,41 @@ header .listaTop_qs:hover{
     color: white;
 }
 
-div.div_img{
-    justify-content: center;
+.contenedor_qs{
+    width: 100%;
+    height: auto;
+    position: relative;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .fotos img{
    width: 50px;
    height: 250px;
+   align-items: center;
+   justify-content: center;
 }
 
 ul.fotos li{
-    float: left;
+    float: inline-start;
     align-items: center;
-    margin: 70px 5px;
+    margin: 20px 12px;
     list-style: none;
 }
 
 ul.fotos li img{
     width: 200px;
-    display: inline-block;
-    margin-left: auto;
+    display: inline;
     padding: 5px;
     border-radius: 20px;
     background: linear-gradient(45deg, rgba(253,82,4,1) 16%,rgba(180,24,34,1) 49%,rgba(238,169,15,1) 87%);
 }
 
 ul.fotos li:hover img{
-    box-shadow: 4px 4px 10px whitesmoke;
+    box-shadow: 0 0 10px whitesmoke ;
     transform: scale(1.2);
 }
 
@@ -363,25 +380,22 @@ ul.fotos li:hover img{
     padding: 3px;
     text-align: center;
     margin-top: 3px;
-    height: auto;
 }
 
 .info{
     color: white;
     font-family: 'Raleway', sans-serif;
     width: 80%;
-    height: 350px;
+    height: auto;
     justify-items: center;
     align-items: center;
     background: linear-gradient(45deg, rgba(244,127,17,1) 4%,rgba(244,127,17,1) 10%,rgba(228,38,41,1) 28%,rgba(251,69,108,1) 54%,rgba(251,69,108,1) 54%,rgba(251,69,108,1) 60%,rgba(251,69,108,1) 67%,rgba(173,30,109,1) 91%);
     padding: 20px;
     border-radius: 20px;
-    margin-left: 125px;
-    margin-top: 15px;
-    margin-bottom: 70px;
 }
 
 .TituloQs{
+    margin-bottom: 10px;
     font-size: 40px;
     text-align: center;
 }
@@ -506,6 +520,12 @@ header .listaTop_pro:hover{
     transform: scale(1)
 }
 
+.footer_pro{
+    text-align: center;
+    color: white;
+    margin-bottom: 1rem;
+    font-size: x-small;
+}
 
 
 
